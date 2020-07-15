@@ -1,0 +1,170 @@
+header, main, nav, footer, section, article, figure, figcaption, aside {
+    display: block;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+header {
+    background-color: #EFF2EC;
+    color: #5473B3;
+    background-image: url("header.jpg");
+    background-position: right;
+    background-repeat: repeat-y;
+    height: 130px;
+    text-align: left;
+}
+
+ul {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+nav {
+
+}
+
+nav a{
+
+}
+
+nav ul {
+
+}
+
+.submit {
+    alignment: center;
+}
+
+a:link {
+    color: #5473B3;
+}
+
+a:hover {
+    color: #E26640;
+}
+
+#bioText {
+    text-align: center;
+}
+
+#cinderella {
+    width: 200px;
+}
+
+#studio {
+    height: 400px;
+    width: 550px;
+}
+
+#girl, #artgallery {
+    height: 300px;
+}
+
+.name {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cover {
+    text-align: center;
+}
+
+@media only screen and (max-width:64em) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        padding-top: 1px;
+    }
+
+    main {
+        float: none;
+        font-size: 90%;
+        padding-bottom: 2.5em;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 0;
+
+    ul {
+        margin-left: 1em;
+    }
+
+    nav{
+    float: none;
+    padding-left: 2em;
+    width: auto;
+}
+
+#cinderella {
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+    #studio {
+        height: 200px;
+        width: 225px;
+    }
+
+    #girl, #artgallery {
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+
+#cinderella{
+    background-image: none;
+    height: 0;
+}
+
+#studio {
+    background-image: none;
+    height: 0;
+}
+
+#picture {
+    background-image: none;
+    height: 0;
+}
+
+#girl {
+    background-image: none;
+    height: 0;
+}
+
+#artgallery {
+    background-image: none;
+    height: 0;
+}
+}
